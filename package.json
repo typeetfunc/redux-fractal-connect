@@ -1,0 +1,57 @@
+{
+  "name": "redux-fractal-connect",
+  "version": "0.1.0",
+  "description": "redux-fractal-connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitive/cycle-best-pref-driver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitive/cycle-best-pref-driver/issues"
+  },
+  "homepage": "https://github.com/Nitive/cycle-best-pref-driver#readme",
+  "devDependencies": {
+    "@types/jest": "^19.2.1",
+    "concurrently": "^3.4.0",
+    "jest": "^19.0.2",
+    "ts-node": "^3.0.2",
+    "ts-jest": "^19.0.0",
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.5.1",
+    "tslint-config-standard": "^4.0.0",   
+    "benchmark": "^2.1.4",
+    "typescript": "^2.2.1",   
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
+    "@types/react-dom": "^0.14.23",
+    "react-dom": "^15.4.2",
+    "ramda": "^0.23.0",
+    "@types/ramda": "^0.0.6"
+  },
+  "jest": {
+    "transform": {
+      ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+    "testRegex": ".*test\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "dependencies": {
+    "@types/react": "^15.0.21",    
+    "@types/react-redux": "^4.4.38",
+    "redux": "^3.6.0",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "hoist-non-react-statics-es": "^1.0.3",
+    "runtypes": "^0.9.2"
+  }
+}
